@@ -37,9 +37,15 @@ set nocompatible              " be iMproved, required
 	" Git Plugin for tree explorer
 	Plugin 'Xuyuanp/nerdtree-git-plugin'
 
+    " Autocomplete Plugin
+    Plugin 'Valloric/YouCompleteMe'
+
+    " CTags Plugin
+    Plugin 'universal-ctags/ctags'
+
 	" Java autocomplete
 	" Needs a vim with python support...
-	Plugin 'artur-shaik/vim-javacomplete2'
+	"Plugin 'artur-shaik/vim-javacomplete2'
 	" Settings for javacomplete-2
 "	autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
